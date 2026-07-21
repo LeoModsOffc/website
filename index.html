@@ -1,0 +1,514 @@
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio Leomods</title>
+<meta name="description" content="LeoMods — WhatsApp & Telegram Bot Developer, Fullstack Web Developer">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Caveat:wght@600;700&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="./img/icon.png" type="image/png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="loader" id="loader">
+  <div class="loader-box">
+    <span class="loader-tag"><i class="fa-solid fa-circle-notch fa-spin"></i></span>
+    <div class="loader-bar"><span id="loaderProgress"></span></div>
+    <span class="loader-pct" id="loaderPct">0%</span>
+  </div>
+</div>
+
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">
+      <span class="logo-box"><i class="fa-solid fa-circle-user"></i></span>
+      <span class="logo-text">Leomods</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-section="home">Home</a>
+      <a href="#about" class="nav-link" data-section="about">About</a>
+      <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+      <a href="#education" class="nav-link" data-section="education">Education</a>
+      <a href="#skills" class="nav-link" data-section="skills">Certifications</a>
+      <a href="#tools" class="nav-link" data-section="tools">Tools</a>
+      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+      <a href="#services" class="nav-link" data-section="services">Services</a>
+      <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#contact" class="btn btn-yellow nav-cta">Hire Me <i class="fa-solid fa-arrow-up-right"></i></a>
+      <button class="hamburger" id="hamburger" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" class="mobile-link">Home</a>
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#experience" class="mobile-link">Experience</a>
+  <a href="#education" class="mobile-link">Education</a>
+  <a href="#skills" class="mobile-link">Certifications</a>
+  <a href="#tools" class="mobile-link">Tools</a>
+  <a href="#projects" class="mobile-link">Projects</a>
+  <a href="#services" class="mobile-link">Services</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+</div>
+
+<main>
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <span class="pill pill-yellow reveal-up"><i class="fa-solid fa-bolt"></i> BEGINNER</span>
+        <h1 class="hero-title reveal-up" style="--d:.05s">
+          Beginner<br>
+          High-<span class="hl hl-yellow">Impact</span><br>
+          Solutions.
+        </h1>
+        <p class="hero-sub reveal-up" style="--d:.1s">
+          Beginner based in <strong>Indonesia</strong> — membangun bot WhatsApp &amp; Telegram,
+          serta website portofolio.
+        </p>
+        <div class="hero-actions reveal-up" style="--d:.15s">
+          <a href="#contact" class="btn btn-black">Hire Me <i class="fa-solid fa-arrow-up-right"></i></a>
+          <a href="#projects" class="btn btn-outline">My Work <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="stat-row reveal-up" style="--d:.2s">
+          <div class="stat-card stat-white">
+            <span class="stat-num" data-count="4">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">PROJECTS</span>
+          </div>
+          <div class="stat-card stat-pink">
+            <span class="stat-num" data-count="9">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">TECH STACK</span>
+          </div>
+          <div class="stat-card stat-cyan">
+            <span class="stat-num" data-count="89">0</span><span class="stat-plus">%</span>
+            <span class="stat-label">UPTIME</span>
+          </div>
+          <div class="stat-card stat-lime">
+            <span class="stat-num" data-count="2">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">YEARS EXP</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal-up" style="--d:.1s">
+        <div class="photo-stack">
+          <div class="photo-shadow-card"></div>
+          <div class="photo-card">
+            <img src="./img/profile.png" alt="Profile"
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ticker">
+      <div class="ticker-track">
+        <span>NEXT.JS</span><i>•</i><span>NODE.JS</span><i>•</i>
+        <span>TELEGRAF</span><i>•</i><span>PYTHON</span><i>•</i><span>PHP</span><i>•</i>
+        <span>99.9% UPTIME</span><i>•</i><span>INDONESIA</span><i>•</i>
+        <span>NEXT.JS</span><i>•</i><span>NODE.JS</span><i>•</i>
+        <span>TELEGRAF</span><i>•</i><span>PYTHON</span><i>•</i><span>PHP</span><i>•</i>
+        <span>99.9% UPTIME</span><i>•</i><span>INDONESIA</span><i>•</i>
+      </div>
+    </div>
+  </section>
+
+  <section class="section how-build">
+    <div class="container">
+      <h2 class="section-title center reveal-up">How I Build <span class="script hl-pink">Great Apps</span></h2>
+      <div class="build-grid">
+        <div class="build-card build-cream reveal-up" style="--d:.05s">
+          <span class="pill pill-yellow small">CONSISTENT DATA</span>
+          <h3>Reusable Components</h3>
+          <p>Proven success in boosting development efficiency through modular, reusable component design.</p>
+          <div class="build-stat">30%<span>FASTER DELIVERY</span></div>
+        </div>
+        <div class="build-card build-black reveal-up" style="--d:.1s">
+          <span class="pill pill-pink small">BEGINNER CODE'X</span>
+          <h3>Beginner Foundation</h3>
+          <p>Node.js, Laravel — memahami siklus pengembangan bot secara menyeluruh.</p>
+        </div>
+        <div class="build-card build-cream reveal-up" style="--d:.15s">
+          <span class="pill pill-lime small">KEY VALUE</span>
+          <h3>User-Focused Approach</h3>
+          <p>Keahlian teknis dipadukan dengan pengujian nyata agar produk sesuai kebutuhan user.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="container">
+      <span class="pill pill-black reveal-up">● ABOUT ME</span>
+      <div class="about-grid">
+        <div class="about-content reveal-up" style="--d:.1s">
+          <h2 class="section-title">I'm <span class="script hl-pink">LeoMods.</span></h2>
+          <p class="quote">"I build things that work."</p>
+          <p>A results-oriented <strong>Bot &amp; beginner</strong> specializing in building
+            reliable WhatsApp &amp; Telegram bots and scalable web applications. Passionate about clean
+            architecture, smooth UX, and solving real business problems with code.</p>
+          <p>Beyond code, I manage the full deployment lifecycle — VPS provisioning, process management,
+            and session handling. My bots aren't just built, they're <strong>production-ready</strong>.</p>
+          <div class="about-tags">
+            <span class="tag-pill"><i class="fa-solid fa-graduation-cap"></i> Self- beginner, don't bash</span>
+            <span class="tag-pill"><i class="fa-solid fa-location-dot"></i> Indonesia</span>
+          </div>
+          <a href="#contact" class="btn btn-black">Let's Connect <i class="fa-solid fa-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section experience">
+    <div class="container">
+      <span class="pill pill-black reveal-up">● EXPERIENCE</span>
+      <h2 class="section-title reveal-up">Where I've <span class="script hl-pink">worked.</span></h2>
+
+      <div class="exp-list">
+        <div class="exp-card exp-yellow reveal-up" style="--d:.05s">
+          <div class="exp-num">#01</div>
+          <div class="exp-body">
+            <span class="tag-mono">SELF-EMPLOYED · ONGOING</span>
+            <h3>Beginner Bot &amp; Web Developer</h3>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Membangun &amp; merawat bot WhatsApp berbasis Baileys untuk kebutuhan otomasi chat.</li>
+              <li><i class="fa-solid fa-check"></i> Mengembangkan bot Telegram dengan Telegraf, lengkap dengan rich message &amp; database.</li>
+              <li><i class="fa-solid fa-check"></i> Merancang &amp; men-deploy website portofolio.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card exp-pink reveal-up" style="--d:.1s">
+          <div class="exp-num">#02</div>
+          <div class="exp-body">
+            <span class="tag-mono">PROJECT · FOXYZ DEATH MD</span>
+            <h3>WhatsApp Bot</h3>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Menulis command handler CJS untuk fitur AI chat, image processing, dan web2apk.</li>
+              <li><i class="fa-solid fa-check"></i> Mengintegrasikan API pihak ketiga via axios dengan session persistence berbasis JSON.</li>
+              <li><i class="fa-solid fa-check"></i> Membangun identitas visual bot (logo &amp; asset cyberpunk).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card exp-lime reveal-up" style="--d:.15s">
+          <div class="exp-num">#03</div>
+          <div class="exp-body">
+            <span class="tag-mono">PROJECT · TELEGRAF BOT</span>
+            <h3>Telegram Bot Developer</h3>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Debug fitur rich message Telegram Bot API untuk animasi loading &amp; menu interaktif.</li>
+              <li><i class="fa-solid fa-check"></i> Setup infrastruktur database MySQL &amp; dependency management.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card exp-cyan reveal-up" style="--d:.2s">
+          <div class="exp-num">#04</div>
+          <div class="exp-body">
+            <span class="tag-mono">PROJECT · LEOMODS ASSISTANT</span>
+            <h3>Web Developer</h3>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Membangun web app scraper ChatGPT dengan backend Node.js.</li>
+              <li><i class="fa-solid fa-check"></i> Deploy &amp; menjaga uptime aplikasi menggunakan PM2.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card exp-black reveal-up" style="--d:.25s">
+          <div class="exp-num">#05</div>
+          <div class="exp-body">
+            <span class="tag-mono">SIDE BUSINESS · ONGOING</span>
+            <h3>Digital Trader — Game Accounts</h3>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Mengelola transaksi jual-beli akun game dengan proses yang aman &amp; transparan.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section education">
+    <div class="container">
+      <span class="pill pill-black reveal-up">● EDUCATION</span>
+      <h2 class="section-title reveal-up">Academic <span class="hl hl-pink">Background.</span></h2>
+      <div class="edu-grid">
+        <div class="edu-card edu-cream reveal-up" style="--d:.05s">
+          <span class="edu-num">01</span>
+          <span class="tag-mono">2023 - 2026</span>
+          <h3>Les private IT</h3>
+          <p>Mempelajari program pembelajaran satu-satu yang dirancang untuk membantu peserta menguasai keterampilan di bidang teknologi informasi.</p>
+        </div>
+        <div class="edu-card edu-pink reveal-up" style="--d:.1s">
+          <span class="edu-num">02</span>
+          <span class="tag-mono">SELF-TAUGHT</span>
+          <h3>Software Development</h3>
+          <p>Belajar mandiri Node.js, PHP &amp; Python lewat dokumentasi dan proyek nyata.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section certifications">
+    <div class="container">
+      <span class="pill pill-black reveal-up">● CERTIFICATIONS</span>
+      <h2 class="section-title reveal-up">Validated <span class="script hl-pink">Skills.</span></h2>
+      <div class="cert-grid">
+        <div class="cert-card reveal-up" style="--d:.05s">
+          <div class="cert-icon icon-green"><i class="fa-brands fa-node-js"></i></div>
+          <h4>Node.js Backend</h4>
+          <span class="tag-mono">RUNTIME · SERVER</span>
+        </div>
+        <div class="cert-card reveal-up" style="--d:.1s">
+          <div class="cert-icon icon-yellow"><i class="fa-solid fa-bolt"></i></div>
+          <h4>WhatsApp API</h4>
+          <span class="tag-mono">MULTI-DEVICE BOT</span>
+        </div>
+        <div class="cert-card reveal-up" style="--d:.15s">
+          <div class="cert-icon icon-cyan"><i class="fa-brands fa-telegram"></i></div>
+          <h4>Telegraf Framework</h4>
+          <span class="tag-mono">TELEGRAM BOT</span>
+        </div>
+        <div class="cert-card reveal-up" style="--d:.2s">
+          <div class="cert-icon icon-blue"><i class="fa-brands fa-js"></i></div>
+          <h4>JavaScript ES6+</h4>
+          <span class="tag-mono">CORE LANGUAGE</span>
+        </div>
+        <div class="cert-card reveal-up" style="--d:.25s">
+          <div class="cert-icon icon-purple"><i class="fa-brands fa-python"></i></div>
+          <h4>Python Scripting</h4>
+          <span class="tag-mono">AUTOMATION</span>
+        </div>
+        <div class="cert-card reveal-up" style="--d:.3s">
+          <div class="cert-icon icon-pink"><i class="fa-solid fa-code"></i></div>
+          <h4>PHP Backend</h4>
+          <span class="tag-mono">WEB SYSTEM</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools" class="section tools">
+    <div class="container">
+      <span class="pill pill-black reveal-up">● TECH STACK</span>
+      <h2 class="section-title reveal-up">Core Technology <span class="hl hl-lime">Stack.</span></h2>
+      <div class="tools-grid">
+        <div class="tool-item reveal-up" style="--d:.02s"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+        <div class="tool-item reveal-up" style="--d:.04s"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+        <div class="tool-item reveal-up" style="--d:.06s"><i class="fa-brands fa-python"></i><span>Python</span></div>
+        <div class="tool-item reveal-up" style="--d:.08s"><i class="fa-solid fa-code"></i><span>PHP</span></div>
+        <div class="tool-item reveal-up" style="--d:.14s"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+        <div class="tool-item reveal-up" style="--d:.16s"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+        <div class="tool-item reveal-up" style="--d:.18s"><i class="fa-solid fa-server"></i><span>VPS / Linux</span></div>
+        <div class="tool-item reveal-up" style="--d:.2s"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+        <div class="tool-item reveal-up" style="--d:.22s"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <div class="container">
+      <span class="pill pill-black reveal-up">● PROJECTS</span>
+      <h2 class="section-title reveal-up">My <span class="script hl-pink">Work.</span></h2>
+
+      <div class="project-scroll" id="projectScroll">
+
+        <article class="project-card project-red" data-modal="foxyz">
+          <div class="project-thumb"><i class="fa-brands fa-whatsapp"></i></div>
+          <div class="project-tags"><span>NODE.JS</span><span>BAILEYS</span><span>CJS</span></div>
+          <h3>Foxyz Death MD</h3>
+          <p>Bot WhatsApp multi-device dengan fitur AI chat, image processing, dan web2apk.</p>
+          <button class="view-details" data-modal="foxyz">VIEW DETAILS <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="project-card project-blue" data-modal="telegraf">
+          <div class="project-thumb"><i class="fa-brands fa-telegram"></i></div>
+          <div class="project-tags"><span>TELEGRAF</span><span>MYSQL</span><span>NODE.JS</span></div>
+          <h3>Telegraf Rich Bot</h3>
+          <p>Bot Telegram dengan rich message, animasi loading state, dan menu interaktif.</p>
+          <button class="view-details" data-modal="telegraf">VIEW DETAILS <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="project-card project-yellow" data-modal="assistant">
+          <div class="project-thumb"><i class="fa-solid fa-robot"></i></div>
+          <div class="project-tags"><span>NODE.JS</span><span>PM2</span><span>UI/UX</span></div>
+          <h3>LeoMods Assistant</h3>
+          <p>Web app scraper ChatGPT dengan backend Node.js dan UI putih-ungu yang bersih.</p>
+          <button class="view-details" data-modal="assistant">VIEW DETAILS <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="project-card project-pink" data-modal="portfolio">
+          <div class="project-thumb"><i class="fa-solid fa-globe"></i></div>
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          <h3>LeoMods Portfolio</h3>
+          <p>Website portofolio neobrutalism dengan animasi penuh di tiap section.</p>
+          <button class="view-details" data-modal="portfolio">VIEW DETAILS <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-head">
+        <div class="modal-thumb" id="modalThumb"><i class="fa-solid fa-robot"></i></div>
+        <div>
+          <h3 id="modalTitle">Project Title</h3>
+          <div class="project-tags" id="modalTags"></div>
+        </div>
+      </div>
+      <div class="modal-cols">
+        <div>
+          <span class="tag-mono">PROBLEM</span>
+          <p id="modalProblem"></p>
+        </div>
+        <div>
+          <span class="tag-mono">SOLUTION</span>
+          <p id="modalSolution"></p>
+        </div>
+        <div>
+          <span class="tag-mono">IMPACT</span>
+          <p id="modalImpact"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="services" class="section services">
+    <div class="container">
+      <span class="pill pill-black reveal-up">● SERVICES</span>
+      <h2 class="section-title reveal-up">What I <span class="hl hl-pink">Offer.</span></h2>
+
+      <div class="accordion" id="accordion">
+        <div class="acc-item active">
+          <button class="acc-head">
+            <span class="acc-num">01</span>
+            <i class="fa-brands fa-whatsapp acc-icon"></i>
+            <span class="acc-title">WhatsApp Bot Development</span>
+            <i class="fa-solid fa-chevron-down acc-arrow"></i>
+          </button>
+          <div class="acc-body">
+            <p>Bot WhatsApp multi-device berbasis Baileys — command custom, auto-reply, sampai integrasi API pihak ketiga.</p>
+            <div class="project-tags"><span>NODE.JS</span><span>BAILEYS</span></div>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head">
+            <span class="acc-num">02</span>
+            <i class="fa-brands fa-telegram acc-icon"></i>
+            <span class="acc-title">Telegram Bot Development</span>
+            <i class="fa-solid fa-chevron-down acc-arrow"></i>
+          </button>
+          <div class="acc-body">
+            <p>Bot Telegram dengan Telegraf — menu interaktif, rich message, dan koneksi database.</p>
+            <div class="project-tags"><span>TELEGRAF</span><span>MYSQL</span></div>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head">
+            <span class="acc-num">03</span>
+            <i class="fa-solid fa-code acc-icon"></i>
+            <span class="acc-title">Web Development</span>
+            <i class="fa-solid fa-chevron-down acc-arrow"></i>
+          </button>
+          <div class="acc-body">
+            <p>Landing page &amp; portofolio dengan animasi halus, responsif, dan tampilan yang nggak pasaran.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head">
+            <span class="acc-num">04</span>
+            <i class="fa-solid fa-server acc-icon"></i>
+            <span class="acc-title">Server &amp; Infrastructure</span>
+            <i class="fa-solid fa-chevron-down acc-arrow"></i>
+          </button>
+          <div class="acc-body">
+            <p>Production server setup, maintenance, dan optimasi. Deployment VPS berbasis Linux dengan PM2.</p>
+            <div class="project-tags"><span>VPS</span><span>LINUX</span><span>PM2</span></div>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head">
+            <span class="acc-num">05</span>
+            <i class="fa-solid fa-gamepad acc-icon"></i>
+            <span class="acc-title">Jual-Beli Akun Game</span>
+            <i class="fa-solid fa-chevron-down acc-arrow"></i>
+          </button>
+          <div class="acc-body">
+            <p>Bantu proses jual-beli akun game dengan transaksi yang aman dan jelas.</p>
+            <div class="project-tags"><span>TRUSTED</span><span>AMAN</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container">
+      <span class="pill pill-black reveal-up">● CONTACT</span>
+      <h2 class="section-title reveal-up">Let's build <span class="script hl-pink">something.</span></h2>
+
+      <div class="contact-grid">
+        <form class="contact-form reveal-up" id="contactForm" style="--d:.05s">
+          <input type="text" id="cfName" placeholder="Full Name" required>
+          <label class="field-label">Email Address</label>
+          <input type="email" id="cfEmail" placeholder="you@example.com" required>
+          <label class="field-label">Phone (Optional)</label>
+          <input type="text" id="cfPhone" placeholder="+62 812 xxxx">
+          <label class="field-label">Message</label>
+          <textarea rows="4" id="cfMessage" placeholder="Tell me about your project…" required></textarea>
+          <button type="submit" class="btn btn-black btn-block">
+            <span id="submitText">SEND MESSAGE</span> <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+
+        <div class="contact-side reveal-up" style="--d:.1s">
+          <span class="find-me-label">Find me here too ↓</span>
+          <a href="#" class="contact-link-card"><i class="fa-solid fa-envelope"></i><div><strong>Email</strong><span>leostoreokay@gmail.com</span></div></a>
+          <a href="https://github.com/leomodsoffc" target="_blank" rel="noopener" class="contact-link-card"><i class="fa-brands fa-github"></i><div><strong>GitHub</strong><span>github.com/leomodsoffc</span></div></a>
+          <a href="https://t.me/LeoModsReal" target="_blank" rel="noopener" class="contact-link-card"><i class="fa-brands fa-telegram"></i><div><strong>Telegram</strong><span>@leofdx</span></div></a>
+          <a href="#" class="contact-link-card"><i class="fa-brands fa-whatsapp"></i><div><strong>WhatsApp</strong><span>+62 882-007-809-344</span></div></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <a href="#home" class="logo">
+        <span class="logo-box"><i class="fa-solid fa-circle-user"></i></span><span class="logo-text light">Leomods</span>
+      </a>
+      <p>Beginner high-impact digital solutions.</p>
+    </div>
+    <nav class="footer-links">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="footer-socials">
+      <a href="https://github.com/leomodsoffc" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+      <a href="https://t.me/leofdx" target="_blank" rel="noopener"><i class="fa-brands fa-telegram"></i></a>
+      <a href="https://instagram.com/pnggilleo" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="container">
+    <p class="copyright">© <span id="year"></span> LeoMods. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
